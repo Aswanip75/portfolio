@@ -1,0 +1,247 @@
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    
+   
+}
+body{
+    background-color: black;
+    color: #e5dfdf;
+}
+h1{
+    
+    /* font-family: "Sevillana", cursive; */
+    font-weight: 700;
+    /* font-family: "Pacifico", cursive; */
+    font-family: "Chakra Petch", sans-serif;
+}
+header{
+    width: 100%;
+    height:60px;
+    display: flex;
+    justify-content: space-between;
+    /* position: sticky; */
+    /* top: 0px; */
+    background-color: rgb(64, 63, 63);
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+}
+header ul li{
+    margin:30px;
+    list-style: none;
+    color: whitesmoke;
+}
+header ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 600;
+}
+header ul i {
+    margin-right: 6px;
+    color: whitesmoke;
+}
+header ul li a:hover {
+color: rgb(237, 236, 236);
+text-shadow: 4px 3px 4px whitesmoke;
+}
+video {
+    width: 100%;
+    /* position: relative; */
+    
+}
+.box{
+    position: absolute;
+    border: 10px double whitesmoke;
+    background-color: rgba(85, 79, 79, 0.007);
+
+    left: 450px;
+    bottom: 250px;
+    padding: 50px;
+
+}
+
+
+ .name{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+
+}
+.name h1{
+    margin-top: 150px;
+    /* font-family: "Honk", system-ui; */
+    font-family: "Pacifico", cursive;
+    text-align: center;
+    font-size: large;
+    font-family: "Chakra Petch", sans-serif; 
+    
+}
+.name h1 b{
+    font-weight: bolder;
+    text-align: center;
+    font-size: x-large;
+}
+.me p{
+    height: 300px;
+    width: 400px;
+    margin-top: 180px;
+    font-size: large;
+}
+.about{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mee{
+    font-family: "Chakra Petch", sans-serif; 
+}
+.me img{
+    margin-top: 100px;
+    box-shadow: 2px 2px 2px 2px rgb(50, 49, 49);
+}
+.project1{
+    width:100%;
+    height: 320px;
+    /* background-color: rgb(50, 49, 49); */
+    display: flex;
+    /* margin-bottom: 10px; */
+}
+.project1 .projects{
+    width:350px;
+    height: 290px;
+    background-color: black;
+    margin: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.project2{
+    width:100%;
+    height: 330px;
+    /* background-color: rgb(50, 49, 49); */
+    display: flex;
+}
+.project2 .projects1{
+    width:350px;
+    height: 300px;
+    background-color: black;
+    margin: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+.projects h5{
+    /* background-color:rgb(50, 49, 49) ; */
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 10px;
+}
+.projects1 h5{
+    /* background-color:rgb(50, 49, 49) ; */
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 10px;
+}
+.head{
+    text-align: center;
+    background-color: rgb(50, 49, 49);
+    font-family: "Chakra Petch", sans-serif; 
+    margin-bottom : 20px;
+}
+.service{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 400px;
+    /* background-color: rgb(50, 49, 49); */
+}
+.service1{
+    width: 200px;
+    height: 320px;
+    margin: 10px;
+    background-color: black;
+    text-align: center;
+    border:2px solid whitesmoke;
+
+}
+.service p{
+    
+    height: 100px;
+    text-align: justify;
+    font-size: xx-small;
+    padding: 10px;
+    
+
+}.services h1{
+    font-family: "Chakra Petch", sans-serif; 
+    text-align: center;
+    background-color: rgb(50, 49, 49);  
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+
+
+}
+.contact p {
+    
+text-align: center;
+}
+.contact i{
+    text-align: center;
+}
+.contact h1{
+    text-align: center;
+    background-color: rgb(50, 49, 49);
+    margin-top: 70px;
+    font-family: "Chakra Petch", sans-serif; 
+
+}
+/* .flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+} */
+
+/* This container is needed to position the front and back side */
+/* .flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  /* transition: transform 0.8s; */
+  /* transform-style: preserve-3d; */
+} */
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  /* transform: rotateY(180deg); */
+}
+
+/* Position the front and back side */
+/* .flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+} */
+
+/* Style the front side (fallback if image is missing) */
+/* .flip-box-front {
+  background-color: #bbb;
+  color: black;
+} */
+
+/* Style the back side */
+/* .flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+} */
